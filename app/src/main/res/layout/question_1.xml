@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/batman" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/question1"
+        android:textColor="@color/textDark" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/q1_answer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/radio_button_spacing"
+            android:text="1939" />
+
+        <RadioButton
+            android:id="@+id/q1_answer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/radio_button_spacing"
+            android:text="1965" />
+
+        <RadioButton
+            android:id="@+id/q1_answer_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1991" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

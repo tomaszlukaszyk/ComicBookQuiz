@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/osborn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/question4"
+        android:textColor="@color/textDark" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q4_answer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hobgoblin" />
+
+        <RadioButton
+            android:id="@+id/q4_answer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Green Goblin" />
+
+        <RadioButton
+            android:id="@+id/q4_answer_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Venom" />
+
+    </RadioGroup>
+
+</LinearLayout>

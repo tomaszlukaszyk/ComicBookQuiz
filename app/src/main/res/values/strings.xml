@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Comic Book Quiz</string>
+    <string name="question1">Batman first appeared in Detective Comics #27.  \nWhat year was it released?</string>
+    <string name="question2">Spider-Man\'s real name is Peter …</string>
+    <string name="question3">Which of the following characters where the founding members of the Avengers team in their debut comic book?</string>
+    <string name="question4">Norman Osborn is a supervillain that goes by the alias:</string>
+    <string name="question5">Name of the villain that broke Batman\'s back is: </string>
+    <string name="question6">Which of the following aliases did Wolverine use?</string>
+    <string name="answer_hint">Type answer here</string>
+    <string name="question_1_6">Question 1/6</string>
+    <string name="question_2_6">Question 2/6</string>
+    <string name="question_3_6">Question 3/6</string>
+    <string name="question_4_6">Question 4/6</string>
+    <string name="question_5_6">Question 5/6</string>
+    <string name="question_6_6">Question 6/6</string>
+    <string name="next_button">Next</string>
+    <string name="end_text">You have scored:</string>
+</resources>
