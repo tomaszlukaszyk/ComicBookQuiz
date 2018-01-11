@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Comic Book Quiz</string>
     <string name="question1">Batman first appeared in Detective Comics #27.  \nWhat year was it released?</string>
     <string name="question2">Spider-Man\'s real name is Peter …</string>
@@ -15,4 +15,7 @@
     <string name="question_6_6">Question 6/6</string>
     <string name="next_button">Next</string>
     <string name="end_text">You have scored:</string>
+    <string name="share_button">Share your score</string>
+    <string name="share_text">I just did Comic Book Quiz and my score is <xliff:g id="score" example="1">%d</xliff:g>/6</string>
+    <string name="share_with">Share with</string>
 </resources>

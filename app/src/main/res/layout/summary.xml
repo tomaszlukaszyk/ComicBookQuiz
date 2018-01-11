@@ -32,4 +32,12 @@
         android:layout_marginTop="@dimen/margin_top"
         android:src="@mipmap/good" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/share_button"
+        android:onClick="shareScore"/>
+
 </LinearLayout>
