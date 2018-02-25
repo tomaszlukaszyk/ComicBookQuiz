@@ -6,35 +6,35 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
+import android.widget.RadioButton;
 
 
-public class Question6 extends Fragment {
+public class Question1Fragment extends Fragment {
 
-    CheckBox q6Answer1;
-    CheckBox q6Answer2;
-    CheckBox q6Answer3;
-    CheckBox q6Answer4;
-    MainActivity mainActivity;
+    public MainActivity mainActivity;
+    RadioButton mQuestion1Answer1;
+    RadioButton mQuestion1Answer2;
+    RadioButton mQuestion1Answer3;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.question_6, container, false);
+        return inflater.inflate(R.layout.fragment_question_1, container, false);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        q6Answer1 = getView().findViewById(R.id.q6_answer_1);
-        q6Answer2 = getView().findViewById(R.id.q6_answer_2);
-        q6Answer3 = getView().findViewById(R.id.q6_answer_3);
-        q6Answer4 = getView().findViewById(R.id.q6_answer_4);
+        mQuestion1Answer1 = getView().findViewById(R.id.q1_answer_1);
+        mQuestion1Answer2 = getView().findViewById(R.id.q1_answer_2);
+        mQuestion1Answer3 = getView().findViewById(R.id.q1_answer_3);
         mainActivity = (MainActivity) getActivity();
     }
 
     //Checks if the right answer was given and updates score accordingly
-    public void checkAnswerQ6 () {
-        if (q6Answer1.isChecked() && q6Answer2.isChecked() && !q6Answer3.isChecked() && q6Answer4.isChecked()) {mainActivity.score += 1;}
+    public void checkAnswerQ1() {
+        if (mQuestion1Answer1.isChecked()) {
+            mainActivity.score += 1;
+        }
     }
 }

@@ -16,6 +16,6 @@
     <string name="next_button">Next</string>
     <string name="end_text">You have scored:</string>
     <string name="share_button">Share your score</string>
-    <string name="share_text">I just did Comic Book Quiz and my score is <xliff:g id="score" example="1">%d</xliff:g>/6</string>
+    <string name="share_text">I just did Comic Book Quiz and my score is <xliff:g example="1" id="score">%d</xliff:g>/6</string>
     <string name="share_with">Share with</string>
 </resources>

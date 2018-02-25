@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/QuestionImage"
+        android:src="@drawable/batman" />
+
+    <TextView
+        style="@style/QuestionText"
+        android:text="@string/question1" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/q1_answer_1"
+            style="@style/RadioButton"
+            android:text="1939" />
+
+        <RadioButton
+            android:id="@+id/q1_answer_2"
+            style="@style/RadioButton"
+            android:text="1965" />
+
+        <RadioButton
+            android:id="@+id/q1_answer_3"
+            style="@style/RadioButton"
+            android:text="1991" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

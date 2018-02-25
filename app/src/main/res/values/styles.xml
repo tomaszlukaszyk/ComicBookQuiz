@@ -8,4 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="QuestionText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+
+    <style name="QuestionImage">
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/answer_padding</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:hint">@string/answer_hint</item>
+    </style>
+
+    <style name="RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/answer_padding</item>
+    </style>
+
 </resources>

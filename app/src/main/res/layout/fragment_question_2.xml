@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        style="@style/QuestionImage"
+        android:src="@drawable/spiderman" />
+
+    <TextView
+        style="@style/QuestionText"
+        android:text="@string/question2" />
+
+    <EditText
+        android:id="@+id/q2_answer"
+        style="@style/EditText"
+        android:inputType="textCapWords" />
+
+</LinearLayout>
